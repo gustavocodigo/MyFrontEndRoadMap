@@ -2,7 +2,7 @@
     --font-size: 15px;
     --header-background: url(../assets/g2dh.gif);
     --header-padding: 0px;
-    --main-background: #69473a;
+    --main-background: linear-gradient(0deg, rgba(111,78,65,1) 0%, rgba(49,51,56,1) 98%, rgba(37,37,38,1) 100%);
     --main-padding: 20px;
     --main-font-color: white;
     --main-gap: 20px;
