@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
     <title>FrontEnd RoadMap</title>
 </head>
 <body>
     <header>
        <div class="front-and-back-container">
-        <div  class="activated-tab">FRONT</div>
+        <div id="frontend-tab-button" class="activated-tab" onclick="toggle(this)">FRONT</div>
         |
-        <div>BACK</div>
+        <div id="backend-tab-button" onclick="toggle(this)">BACK</div>
        </div>
         <img src="https://avatars.githubusercontent.com/u/108258194?v=4" id="profile"></div>
     </header>
 
     <main>
-        <div class="technologies-container">
+        <div class="technologies-container" id="frontend-container">
+            
             <div class="technology-container">
                 HTML
             </div>
@@ -30,6 +32,20 @@
             </div>
             <div class="technology-container">
                 FrameWorks
+            </div>
+        </div>
+        <div class="technologies-container invisible" id="backend-container">
+            <div class="technology-container">
+                NODE JS
+            </div>
+            <div class="technology-container">
+                REST APIS
+            </div>
+            <div class="technology-container">
+                EXPRESS
+            </div>
+            <div class="technology-container">
+                SQL - DATABASE
             </div>
         </div>
        
