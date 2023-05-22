@@ -12,11 +12,13 @@
     --technologies-border-radius: 10px;
     --technologies-gap: 20px;
     
-    --footer-background: #432f27;
+    --footer-background: #dcd0ca;
     --profileimage-size: 140px;
    
     --header-height: 220px;
-    --footer-height: 60px;
+    --footer-height: 65px;
+    --footer-padding: 25px;
+    --footer-font-color: black;
 }
 
 * {
@@ -75,7 +77,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: calc(var(--profileimage-size) - var(--profileimage-size) / 2 );
-    width: 250px;
+    width: 280px;
     padding: var(--technologies-container-padding);
     background: var(--technologies-background);
     color: var(--technologies-font-color);
@@ -89,6 +91,8 @@ main {
 footer {
     grid-area: footer;
     background: var(--footer-background);
+    padding: var(--footer-padding);
+    color: var(--footer-font-color)
 }
 
 
