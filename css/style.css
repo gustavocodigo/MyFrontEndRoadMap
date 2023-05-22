@@ -90,3 +90,29 @@ footer {
     grid-area: footer;
     background: var(--footer-background);
 }
+
+
+.front-and-back-container{
+    background-color: white;
+    width: 240px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    user-select: none;
+}
+
+
+.front-and-back-container div {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.front-and-back-container div:active {
+  font-weight: bold;
+}
